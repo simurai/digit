@@ -1,0 +1,31 @@
+
+// Digit Variables
+
+$border-radius: .25em;
+$border-radius-touch: 1.25em;
+
+
+// Wireframe
+$w-base-color: #f2f2f2;
+$w-color: #4D4D4D;
+$w-border-color: darken($w-base-color, 20%);
+$w-background-color: $w-base-color;
+$w-carved-color: darken($w-base-color, 10%);
+$w-input-color: #fff;
+
+
+// Light
+$l-color: hsla(0,0%,0%,.7);
+$l-text-shadow: 0 1px 0 hsla(0,0%,100%,.5);
+$l-border-color: hsl(0,0%,80%);
+$l-background-image: linear-gradient( hsl(0,0%,96%), hsl(0,0%,92%) );
+$l-box-shadow: inset 0 1px 1px hsla(0,0%,100%,.8), inset 0 -1px 1px hsla(0,0%,0%,.04), 0 1px 0 hsla(0,0%,100%,.6);
+
+
+
+// Dark
+$d-color: hsla(0,0%,100%,.5);
+$d-text-shadow: 0 1px 0 hsla(0,0%,0%,.2);
+$d-border-color: hsl(0,0%,15%);
+$d-background-image: linear-gradient( hsl(0,0%,30%), hsl(0,0%,24%) );
+$d-box-shadow: inset 0 1px 1px hsla(0,0%,100%,.1), inset 0 -1px 1px hsla(0,0%,0%,.06), 0 1px 0 hsla(0,0%,100%,.1);

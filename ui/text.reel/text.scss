@@ -1,9 +1,27 @@
+@import '../../vars';
+
+
+.digit-Text {
+    
+}
+
+
+
 /* Wireframe ---------------------------------------------------------- */
+
+
+
 /* Light ---------------------------------------------------------- */
+
 [data-montage-skin="light"] .digit-Text {
-  color: #666666;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
+    color: hsl(0,0%,40%);
+    text-shadow: 0 1px 0 hsla(0,0%,100%,.8);
+}
+
+
 
 /* Dark ---------------------------------------------------------- */
+
 [data-montage-skin="dark"] .digit-Text {
-  color: #b3b3b3; }
+    color: hsl(0,0%,70%);
+}
